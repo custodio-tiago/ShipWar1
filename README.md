@@ -1,6 +1,6 @@
 ### Ship War
 
-Ship War é um jogo de naves em desenvolvimento com HTML, CSS e Javascript.  
+Ship War é um jogo de naves em com HTML, CSS e Javascript.  
 
 ### Funcionalidades
 
