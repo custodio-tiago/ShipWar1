@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#gameArea {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    border: 2px solid white;
+    overflow: hidden; /* Para esconder partes da imagem que possam estar fora dos limites */
+}
+
+#player {
+    position: absolute;
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px; /* Ajuste o tamanho conforme necessário */
+    bottom: 10px; /* Distância da parte inferior */
+    left: 50%; /* Posicionamento central */
+    transform: translateX(-50%); /* Ajuste fino para centralizar horizontalmente */
+}
+
+.enemy {
+    position: absolute;
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px; /* Ajuste o tamanho conforme necessário */
+    background-image: url('img/inimigo.png'); /* Substitua com o caminho correto para a imagem do inimigo */
+    background-size: cover;
+}
+
+.bullet {
+    position: absolute;
+    width: 10px; /* Ajuste o tamanho conforme necessário */
+    height: 20px; /* Ajuste o tamanho conforme necessário */
+    background-image: url('img/missil.png'); /* Substitua com o caminho correto para a imagem do míssil */
+    background-size: cover;
+}
+
+.enemyBullet {
+    position: absolute;
+    width: 10px; /* Ajuste o tamanho conforme necessário */
+    height: 20px; /* Ajuste o tamanho conforme necessário */
+    background-image: url('img/missil2.png'); /* Substitua com o caminho correto para a imagem do míssil do inimigo */
+    background-size: cover;
+}
+
+.asteroid {
+    position: absolute;
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px; /* Ajuste o tamanho conforme necessário */
+    background-image: url('img/asteroide.png'); /* Substitua com o caminho correto para a imagem do asteroide */
+    background-size: cover;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+}
