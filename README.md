@@ -9,7 +9,8 @@ Ship War é um jogo de naves em com HTML, CSS e Javascript.
 - Jogador morre com colisão com tiro do inimigo ou com inimigo
 - Tiro do jogador destroi nave do inimigo e concede pontos  
 - Asteroides aleatórios complicam a vida do jogador  
-![image](https://github.com/user-attachments/assets/0bc395c9-23ab-4e12-9065-14bf87a1677d)
+![image](https://github.com/user-attachments/assets/376df687-d83e-4dbe-bf29-c4fef27fb5a7)
+
 
 
 
